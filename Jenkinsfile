@@ -14,14 +14,14 @@ stage('build')
 {
 steps
 {
-sh 'java hello.java'
+sh 'java Hello.java'
 }
 }
 stage('run')
 {
 steps
 {
-sh 'java hello'
+sh 'javac Hello.java'
 }
 }
 }
