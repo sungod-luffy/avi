@@ -14,7 +14,7 @@ stage('build')
 {
 steps
 {
-sh'java hello.java'
+sh 'java hello.java'
 }
 }
 stage('run')
