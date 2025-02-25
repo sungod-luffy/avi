@@ -12,7 +12,9 @@ git 'https://github.com/sungod-luffy/avi.git'
 }
 stage('build')
 {
-steps{
+steps
+{
+sh'java hello.java'
 }
 }
 stage('run')
